@@ -4,28 +4,32 @@ import './nav.css';
 function Nav() {
     const links = [
         {
-            title: 'About',
+            title: 'ABOUT',
             url: 'about'
         },
         {
-            title: 'Projects',
+            title: 'PROJECTS',
             url: 'projects'
         },
         {
-            title: 'Contact',
+            title: 'CONTACT',
             url: 'contact'
         }, 
         {
-            title: 'Resume',
+            title: 'RESUME',
             url: 'resume'
         }
     ]
     return (
-        <div className="Nav">
+        <ul className="Nav nav justify-content-center">
             { 
-                links.map(navLink => <NavLink title={navLink.title} url={navLink.url} key={navLink.url}/>) 
+                links.map(navLink => 
+                    <li className="nav-item p-4">
+                        <NavLink title={navLink.title} url={navLink.url} key={navLink.url}/>
+                    </li>
+                ) 
             }
-        </div>
+        </ul>
     );
 }
 

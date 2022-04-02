@@ -1,0 +1,8 @@
+.NavLink > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.NavLink > a.selected {
+    color: red;
+}
