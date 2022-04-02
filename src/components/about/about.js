@@ -1,9 +1,11 @@
 import './about.css';
+import photo from '../../images/kbyc.jpg'
 
 function About() {
   return (
     <div className="About">
-      <h1>About Works</h1>
+      <p>Blurb</p>
+      <img src={photo} alt="Photo of me" />
     </div>
   );
 }
