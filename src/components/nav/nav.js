@@ -8,7 +8,7 @@ function Nav() {
             url: '#'
         },
         {
-            title: 'Portfolio',
+            title: 'Projects',
             url: '#'
         },
         {
