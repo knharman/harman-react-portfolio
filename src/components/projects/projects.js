@@ -25,7 +25,7 @@ function Projects() {
   return (
     <div className="Projects">
       {
-        projects.map((project) => <Project {...project} />)
+        projects.map((project) => <Project {...project} key={project.title} />)
       }
     </div>
   );

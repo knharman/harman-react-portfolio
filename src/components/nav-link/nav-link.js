@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom';
 import './nav-link.css';
 
 function NavLink({ title, url }) {
   return (
     <div className="NavLink">
-      <a href={url}>{title}</a>
+      <Link to={url}>{title}</Link>
     </div>
   );
 }

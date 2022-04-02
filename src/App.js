@@ -14,8 +14,8 @@ import {
 function App() {
   return (
     <div className="App">
-      <Header />
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<About />}/>
           <Route path="/about" element={<About />}/>
@@ -23,8 +23,8 @@ function App() {
           <Route path="/contact" element={<Contact />}/>
           <Route path="/projects" element={<Projects />}/>
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </div>
   );
 }

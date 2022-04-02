@@ -5,25 +5,25 @@ function Nav() {
     const links = [
         {
             title: 'About',
-            url: '#'
+            url: 'about'
         },
         {
             title: 'Projects',
-            url: '#'
+            url: 'projects'
         },
         {
             title: 'Contact',
-            url: '#'
+            url: 'contact'
         }, 
         {
             title: 'Resume',
-            url: '#'
+            url: 'resume'
         }
     ]
     return (
         <div className="Nav">
             { 
-                links.map(navLink => <NavLink title={navLink.title} url={navLink.url} />) 
+                links.map(navLink => <NavLink title={navLink.title} url={navLink.url} key={navLink.url}/>) 
             }
         </div>
     );

@@ -5,22 +5,22 @@ function Footer() {
     const links = [
         {
             title: 'github',
-            url: '#'
+            url: 'https://github.com/knharman'
         },
         {
             title: 'linkedin',
-            url: '#'
+            url: 'https://www.linkedin.com/in/kellie-harman/'
         },
         {
             title: 'instagram',
-            url: '#'
+            url: 'https://www.instagram.com/thebluechannel/'
         }
     ]
     return (
         <div className="Footer">
             {
                 links.map((link) => {
-                    return <Link title={link.title} url={link.url} />
+                    return <Link title={link.title} url={link.url} key={link.url}/>
                 })
             }
         </div>
