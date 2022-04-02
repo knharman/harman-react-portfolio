@@ -16,15 +16,15 @@ function Footer() {
             url: '#'
         }
     ]
-  return (
-    <div className="Footer">
-      {
-          links.map((link) => {
-              return <Link title={link.title} url={link.url} />
-          })
-      }
-    </div>
-  );
+    return (
+        <div className="Footer">
+            {
+                links.map((link) => {
+                    return <Link title={link.title} url={link.url} />
+                })
+            }
+        </div>
+    );
 }
 
 export default Footer;
