@@ -1,8 +1,15 @@
 .NavLink > a {
     text-decoration: none;
     color: #ffffff;
+    font-size: x-large;
+    transition: color .5s;
+    transition-timing-function: ease-in-out;
 }
 
 .NavLink > a.selected {
+    color: red;
+}
+
+.NavLink > a:hover {
     color: red;
 }
