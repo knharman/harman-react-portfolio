@@ -21,11 +21,11 @@ function Nav() {
         }
     ]
     return (
-        <ul className="Nav nav justify-content-center">
+        <ul className="Nav nav justify-content-center mb-4">
             { 
                 links.map(navLink => 
-                    <li className="nav-item p-4">
-                        <NavLink title={navLink.title} url={navLink.url} key={navLink.url}/>
+                    <li className="nav-item p-4" key={navLink.url}>
+                        <NavLink title={navLink.title} url={navLink.url} />
                     </li>
                 ) 
             }

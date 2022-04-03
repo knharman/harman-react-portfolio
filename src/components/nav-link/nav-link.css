@@ -4,6 +4,9 @@
     font-size: x-large;
     transition: color .5s;
     transition-timing-function: ease-in-out;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: blue;
 }
 
 .NavLink > a.selected {

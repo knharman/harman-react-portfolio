@@ -31,6 +31,12 @@
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
+.Project > img.sparkle {
+    border: none;
+    box-shadow: none;
+    position: absolute;
+}
+
 .Project > img {
     border: 5px solid;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
@@ -45,4 +51,39 @@
 
 .Project > .darkImage {
     filter: brightness(50%);
+}
+
+.sparkle-border-0 {
+    top: 5%;
+    left: -5%;
+}
+
+.sparkle-border-1 {
+    bottom: 75%;
+    right: 50%;
+}
+
+.sparkle-border-2 {
+    bottom: 75%;
+    left: 10%;
+}
+
+.sparkle-border-3 {
+    bottom: 75%;
+    right: 0%;
+}
+
+.sparkle-border-4 {
+    bottom: 15%;
+    right: -5%;
+}
+
+.sparkle-border-5 {
+    bottom: -5%;
+    right: 20%;
+}
+
+.sparkle-border-6 {
+    bottom: -5%;
+    left: 10%;
 }
