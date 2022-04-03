@@ -1,0 +1,32 @@
+.Project {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.Project > .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Project > .bottom-centered {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Project > * a {
+    text-decoration: none;
+}
+
+.Project > img {
+    border: 5px solid;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.Project > .darkImage {
+    filter: brightness(25%);
+}
