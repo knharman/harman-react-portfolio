@@ -3,6 +3,7 @@ import Link from '../link/link';
 import gitHubIcon from '../../images/octocat.svg';
 import linkedinIcon from '../../images/linkedin.svg';
 import instagramIcon from '../../images/instagram.svg';
+import rainbow from '../../images/gifs/rainbow.gif';
 
 function Footer() {
     const links = [
@@ -23,12 +24,18 @@ function Footer() {
         }
     ]
     return (
-        <div className="Footer d-flex justify-content-center">
-            {
-                links.map((link) => {
-                    return <Link {...link} key={link.url}/>
-                })
-            }
+        <div className="Footer">
+            <div className="d-flex justify-content-center">
+                {
+                    links.map((link) => {
+                        return <Link {...link} key={link.url}/>
+                    })
+                }
+            </div>
+            <div className="d-flex justify-content-center align-items-baseline mb-3 gap">
+                <img className="mx-1 rainbow" src={rainbow} alt="rainbow gif" />
+                <span className="mx-1">Copyright Kellie Harman 2022</span>
+            </div>
         </div>
     );
 }
