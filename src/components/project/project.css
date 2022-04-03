@@ -18,15 +18,31 @@
     transform: translate(-50%, -50%);
 }
 
+.hideText {
+    visibility: hidden;
+    opacity: 0;
+}
+
 .Project > * a {
     text-decoration: none;
+    color: #ffffff;
+    text-shadow: 2px 2px red;
+    font-size: larger;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
 .Project > img {
     border: 5px solid;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    transition: filter .5s;
+    transition-timing-function: ease-in-out;
+    border-radius: 30px;
+}
+
+.Project > h1 {
+    transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
 .Project > .darkImage {
-    filter: brightness(25%);
+    filter: brightness(50%);
 }

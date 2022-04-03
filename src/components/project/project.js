@@ -12,10 +12,10 @@ function Project({ title, liveLink, githubLink, screenshot }) {
         onClick={() => toggleShowText(!showText)}
       />
 
-      <h1 className="centered">{title}</h1>
+      <h1 className={`centered ${showText ? "" : "hideText"}`}>{title}</h1>
       <div className="bottom-centered">
-        <a className="mx-2" href={liveLink}>DEMO</a>
-        <a href={githubLink}>GITHUB</a>
+        <a className={`mx-3 ${showText ? "" : "hideText"}`} href={liveLink}>DEMO</a>
+        <a className={`mx-3 ${showText ? "" : "hideText"}`} href={githubLink}>GITHUB</a>
       </div>
 
 

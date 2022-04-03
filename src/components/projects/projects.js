@@ -7,7 +7,7 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
 function Projects() {
   const projects = [
     {
-      title: "Your Portland Itinerary",
+      title: "YOUR PORTLAND ITINERARY",
       liveLink: "https://josephjamescoop.github.io/your-portland-itinerary/",
       githubLink: "https://github.com/JosephJamesCoop/your-portland-itinerary",
       screenshot: itineraryScreenshot
@@ -17,12 +17,6 @@ function Projects() {
       liveLink: "https://afk-network.herokuapp.com/",
       githubLink: "https://github.com/JosephJamesCoop/the-allergy-free-kitchen",
       screenshot: afkscreenshot
-    },
-    {
-      title: "Third Project",
-      liveLink: "#",
-      githubLink: "#",
-      screenshot: "#"
     }, 
     {
       title: "Allergy Free Kitchen",
