@@ -4,14 +4,11 @@ function Contact() {
   return (
     <div className="Contact">
       <form>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" required/>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" required/>
-        <label htmlFor="message">Message:</label>
-        <input type="text" id="message" name="message" required/>
+        <input className="my-2 p-2" type="text" id="name" name="name" required placeholder="NAME"/>
+        <input className="my-2 p-2" type="email" id="email" name="email" required placeholder="EMAIL"/>
+        <textarea className="my-2 p-2" id="message" name="message" placeholder="MESSAGE" required ></textarea>
 
-        <input type="submit" id="submit" value="submit" required/>
+        <input className="p-2" type="submit" id="submit" value="SUBMIT"/>
       </form>
     </div>
   );

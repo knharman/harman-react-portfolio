@@ -1,0 +1,30 @@
+.Contact {
+    max-width: 768px;
+    margin: auto;
+}
+
+.Contact > * input {
+    width: 100%;
+    border: 5px solid #45FFC7;
+    border-radius: 10px;
+    box-shadow: 2px 4px purple;
+    outline: none;
+}
+
+.Contact > * textarea {
+    width: 100%;
+    border: 5px solid #45FFC7;
+    border-radius: 10px;
+    box-shadow: 2px 4px purple;
+    outline: none;
+}
+
+.Contact > * #submit {
+    width: initial;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 30px;
+    background-color: #19a87d;
+    color: white;
+}
