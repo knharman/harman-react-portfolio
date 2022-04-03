@@ -15,15 +15,17 @@ function App() {
   return (
     <div className="App container">
       <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path="/" element={<About />}/>
-          <Route path="/about" element={<About />}/>
-          <Route path="/resume" element={<Resume />}/>
-          <Route path="/contact" element={<Contact />}/>
-          <Route path="/projects" element={<Projects />}/>
-        </Routes>
-        <Footer />
+        <div className="d-flex flex-column justify-content-between" style={{minHeight: "100vh"}}>
+          <Header />
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+          <Footer />
+        </div>
       </BrowserRouter>
     </div>
   );
