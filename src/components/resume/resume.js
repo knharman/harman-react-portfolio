@@ -5,7 +5,7 @@ import resume from './resume.pdf';
 function Resume() {
   return (
     <div className="Resume">
-      <div style={{ width: 400, margin: "auto" }} className="window">
+      <div style={{ maxWidth: "300px", margin: "auto" }} className="window">
         <div className="title-bar">
           <div className="title-bar-text">Resume Downloader</div>
           <div className="title-bar-controls">
