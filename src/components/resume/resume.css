@@ -1,0 +1,17 @@
+.Resume > img {
+    position: relative;
+    margin-bottom: -50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Resume > img.venus {
+    right: 130px;
+    bottom: 40px;
+}
+
+.Resume > img.fire {
+    left: 170px;
+    bottom: 160px;
+}

@@ -1,6 +1,8 @@
 import './resume.css';
 import { Link } from 'react-router-dom';
 import resume from './resume.pdf';
+import venus from '../../images/gifs/venus.gif';
+import fire from '../../images/gifs/fire.gif';
 
 function Resume() {
   return (
@@ -24,6 +26,8 @@ function Resume() {
           </div>
         </div>
       </div>
+      <img className="venus" src={venus} alt="venus fly trap gif" />
+      <img className="fire"src={fire} alt="arrow with flames gif" />
     </div>
   );
 }
