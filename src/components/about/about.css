@@ -13,3 +13,11 @@
     font-style: italic;
     font-size: 160%;
 }
+
+.About > * img.roses {
+    border: none;
+    box-shadow: none;
+    position: relative;
+    bottom: 20%;
+    right: 10%;
+}

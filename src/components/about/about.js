@@ -1,5 +1,6 @@
 import './about.css';
-import photo from '../../images/kbyc.jpg'
+import photo from '../../images/kbyc.jpg';
+import roses from '../../images/gifs/flowers.gif';
 
 function About() {
   return (
@@ -10,6 +11,7 @@ function About() {
         </div>
         <div className="col-md">
           <img src={photo} alt="Me" className="img-fluid" />
+          <img className="roses" src={roses} alt="roses gif" />
         </div>
       </div>
     </div>

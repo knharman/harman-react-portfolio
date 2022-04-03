@@ -10,7 +10,7 @@ function getRandomInt(max) {
 function Project({ title, liveLink, githubLink, screenshot }) {
   const [showText, toggleShowText] = useState(false);
 
-  const numSparkles = getRandomInt(4)
+  const numSparkles = getRandomInt(3)
 
   return (
     <div className="Project">
@@ -20,7 +20,7 @@ function Project({ title, liveLink, githubLink, screenshot }) {
         onClick={() => toggleShowText(!showText)}
       />
       {
-        [...Array(numSparkles)].map((e, i) => <img className={`sparkle sparkle-border-${getRandomInt(7)}`} src={getRandomInt(2) === 0 ? sparkle1 : sparkle2} alt="sparkles" key={i} />)
+        [...Array(numSparkles + 1)].map((e, i) => <img className={`sparkle sparkle-border-${getRandomInt(7)}`} src={getRandomInt(2) === 0 ? sparkle1 : sparkle2} alt="sparkles" key={i} />)
       }
       <h1 className={`centered ${showText ? "" : "hideText"}`}>{title}</h1>
       <div className="bottom-centered">
