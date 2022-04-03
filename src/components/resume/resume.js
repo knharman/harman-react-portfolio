@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import resume from './resume.pdf';
 import venus from '../../images/gifs/venus.gif';
 import fire from '../../images/gifs/fire.gif';
+import { CopyBlock, shadesOfPurple } from "react-code-blocks";
 
 function Resume() {
   return (
@@ -27,7 +28,38 @@ function Resume() {
         </div>
       </div>
       <img className="venus" src={venus} alt="venus fly trap gif" />
-      <img className="fire"src={fire} alt="arrow with flames gif" />
+      <img className="fire" src={fire} alt="arrow with flames gif" />
+      <div className="code-block">
+        <CopyBlock
+          className="code-block"
+          text={`
+      # Skills Include: 
+        - Front End
+          - HTML, CSS, JavaScript
+          - React
+          - Bootstrap
+          - AJAX
+        - Back End
+          - Express.js
+          - Node
+          - NoSQL and MongoDB
+          - MySQL
+          - Security and Auth
+          - GraphQL
+        - Other Stuff
+          - Git
+          - Project Management and Collaboration
+          - Design Patterns
+          - PWAs and SPAs
+          - Algorithms and Data Structures 
+      `}
+          showLineNumbers={false}
+          theme={shadesOfPurple}
+          language="html"
+          wrapLines
+        />
+      </div>
+
     </div>
   );
 }

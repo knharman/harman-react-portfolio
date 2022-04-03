@@ -36,7 +36,7 @@ function Projects() {
       <ResponsiveMasonry
         columnsCountBreakPoints={{ 350: 1, 750: 2}}
       >
-        <Masonry gutter="80px" columnsCount="2">
+        <Masonry gutter="80px" columnsCount={2}>
           {
             projects.map((project) => <Project {...project} key={project.title} />)
           }
