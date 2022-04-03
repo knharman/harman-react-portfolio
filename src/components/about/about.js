@@ -4,8 +4,14 @@ import photo from '../../images/kbyc.jpg'
 function About() {
   return (
     <div className="About">
-      <p>Blurb</p>
-      <img src={photo} alt="Photo of me" />
+      <div className="row">
+        <div className="col">
+          <p>Blurb</p>
+        </div>
+        <div className="col">
+          <img src={photo} alt="Me" className="img-fluid" />
+        </div>
+      </div>
     </div>
   );
 }
