@@ -1,8 +1,12 @@
 import Project from '../project/project';
 import './projects.css';
 import itineraryScreenshot from '../../images/pdxitinerary.png';
-import afkscreenshot from '../../images/afk.png'
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
+import afkscreenshot from '../../images/afk.png';
+import deepthoughts from '../../images/deepthoughts.png';
+import readmeGen from '../../images/readmeGen.png';
+import budget from '../../images/budget.png';
+import scheduler from '../../images/scheduler.png';
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 function Projects() {
   const projects = [
@@ -19,16 +23,28 @@ function Projects() {
       screenshot: afkscreenshot
     }, 
     {
-      title: "Allergy Free Kitchen",
-      liveLink: "https://afk-network.herokuapp.com/",
-      githubLink: "https://github.com/JosephJamesCoop/the-allergy-free-kitchen",
-      screenshot: afkscreenshot
+      title: "Professional README Generator",
+      liveLink: "https://drive.google.com/file/d/1nrGYZockVRbI1wCgNDWv3Nl7osajK7xS/view",
+      githubLink: "https://github.com/knharman/professional-readme-generator",
+      screenshot: readmeGen
     },
     {
-      title: "Allergy Free Kitchen",
-      liveLink: "https://afk-network.herokuapp.com/",
-      githubLink: "https://github.com/JosephJamesCoop/the-allergy-free-kitchen",
-      screenshot: afkscreenshot
+      title: "Deep Thoughts",
+      liveLink: "https://knharman.github.io/deep-thoughts/",
+      githubLink: "https://github.com/knharman/deep-thoughts",
+      screenshot: deepthoughts
+    },
+    {
+      title: "Budget Tracker",
+      liveLink: "https://shrouded-lake-11820.herokuapp.com/",
+      githubLink: "https://github.com/knharman/budget-tracker",
+      screenshot: budget
+    },
+    {
+      title: "Work Day Scheduler",
+      liveLink: "https://knharman.github.io/workday-scheduler/",
+      githubLink: "https://github.com/knharman/workday-scheduler",
+      screenshot: scheduler
     },
   ]
   return (
