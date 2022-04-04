@@ -14,7 +14,7 @@ import {
 function App() {
   return (
     <div className="App container">
-      <BrowserRouter>
+      <BrowserRouter basename={public.env.PUBLIC_URL}>
         <div className="d-flex flex-column justify-content-between" style={{minHeight: "100vh"}}>
           <Header />
           <Routes>
