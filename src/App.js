@@ -6,7 +6,7 @@ import Contact from './components/contact/contact';
 import About from './components/about/about';
 import Footer from './components/footer/footer';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -14,7 +14,7 @@ import {
 function App() {
   return (
     <div className="App container">
-      <BrowserRouter>
+      <HashRouter>
         <div className="d-flex flex-column justify-content-between" style={{minHeight: "100vh"}}>
           <Header />
           <Routes>
@@ -26,7 +26,7 @@ function App() {
           </Routes>
           <Footer />
         </div>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
