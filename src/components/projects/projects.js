@@ -13,8 +13,8 @@ function Projects() {
   const projects = [
     {
       title: "MALL DIRECT",
-      liveLink: "https://josephjamescoop.github.io/your-portland-itinerary/",
-      githubLink: "https://github.com/JosephJamesCoop/your-portland-itinerary",
+      liveLink: "https://mall-direct.herokuapp.com/",
+      githubLink: "https://github.com/knharman/mall-directory",
       screenshot: malldirect
     },
     {
