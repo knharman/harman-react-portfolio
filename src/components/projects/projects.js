@@ -6,10 +6,17 @@ import deepthoughts from '../../images/deepthoughts.png';
 import readmeGen from '../../images/readmeGen.png';
 import budget from '../../images/budget.png';
 import scheduler from '../../images/scheduler.png';
+import malldirect from '../../images/malldirect.png'
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 function Projects() {
   const projects = [
+    {
+      title: "MALL DIRECT",
+      liveLink: "https://josephjamescoop.github.io/your-portland-itinerary/",
+      githubLink: "https://github.com/JosephJamesCoop/your-portland-itinerary",
+      screenshot: malldirect
+    },
     {
       title: "YOUR PORTLAND ITINERARY",
       liveLink: "https://josephjamescoop.github.io/your-portland-itinerary/",
