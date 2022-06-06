@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/harman-react-portfolio/static/css/main.5378e43f.css",
-    "main.js": "/harman-react-portfolio/static/js/main.593d8fed.js",
+    "main.js": "/harman-react-portfolio/static/js/main.57fc14eb.js",
     "react-syntax-highlighter/refractor-core-import.js": "/harman-react-portfolio/static/js/react-syntax-highlighter/refractor-core-import.2543b83d.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/harman-react-portfolio/static/js/react-syntax-highlighter_languages_refractor_abap.44ef4bd7.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/harman-react-portfolio/static/js/react-syntax-highlighter_languages_refractor_actionscript.8d25df1c.chunk.js",
@@ -159,7 +159,8 @@
     "static/media/pdxitinerary.png": "/harman-react-portfolio/static/media/pdxitinerary.af0592fe76c6b9aea4a8.png",
     "static/media/kbyc.jpg": "/harman-react-portfolio/static/media/kbyc.6db2a30dfc2301743c9e.jpg",
     "static/media/readmeGen.png": "/harman-react-portfolio/static/media/readmeGen.78a10098fdcfee2169d4.png",
-    "static/media/resume.pdf": "/harman-react-portfolio/static/media/resume.a555415d37a85cbeda17.pdf",
+    "static/media/resume.pdf": "/harman-react-portfolio/static/media/resume.f97e2af0c52b795cbc0b.pdf",
+    "static/media/malldirect.png": "/harman-react-portfolio/static/media/malldirect.76e69aa582b75fa1da43.png",
     "static/media/scheduler.png": "/harman-react-portfolio/static/media/scheduler.39bcadbbe9eb131251bd.png",
     "static/media/budget.png": "/harman-react-portfolio/static/media/budget.252a4414776ecc7b10a3.png",
     "static/media/afk.png": "/harman-react-portfolio/static/media/afk.bf35801649a4efcba476.png",
@@ -170,12 +171,12 @@
     "static/media/ms_sans_serif_bold.woff": "/harman-react-portfolio/static/media/ms_sans_serif_bold.9fbe71248995f1c639d4.woff",
     "static/media/ms_sans_serif.woff2": "/harman-react-portfolio/static/media/ms_sans_serif.0348082abb503fb6a8c2.woff2",
     "static/media/ms_sans_serif_bold.woff2": "/harman-react-portfolio/static/media/ms_sans_serif_bold.7fcf57cc6e87ecddbf64.woff2",
-    "static/media/linkedin.svg": "/harman-react-portfolio/static/media/linkedin.c7293dfc70c8c8670135a32bc6a42bc4.svg",
-    "static/media/octocat.svg": "/harman-react-portfolio/static/media/octocat.fd35ee42e14ca738b790a19aa64553c5.svg",
-    "static/media/instagram.svg": "/harman-react-portfolio/static/media/instagram.0b269859389316ffe3974b349870bb67.svg",
+    "static/media/linkedin.svg": "/harman-react-portfolio/static/media/linkedin.ab09065153bb84b8547e4b61cd9718c9.svg",
+    "static/media/octocat.svg": "/harman-react-portfolio/static/media/octocat.87b121527de7a7f03d89a2b04ed53a9c.svg",
+    "static/media/instagram.svg": "/harman-react-portfolio/static/media/instagram.55d116230bd8f86b12c2cbb323e11b2c.svg",
     "index.html": "/harman-react-portfolio/index.html",
     "main.5378e43f.css.map": "/harman-react-portfolio/static/css/main.5378e43f.css.map",
-    "main.593d8fed.js.map": "/harman-react-portfolio/static/js/main.593d8fed.js.map",
+    "main.57fc14eb.js.map": "/harman-react-portfolio/static/js/main.57fc14eb.js.map",
     "refractor-core-import.2543b83d.chunk.js.map": "/harman-react-portfolio/static/js/react-syntax-highlighter/refractor-core-import.2543b83d.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.44ef4bd7.chunk.js.map": "/harman-react-portfolio/static/js/react-syntax-highlighter_languages_refractor_abap.44ef4bd7.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.8d25df1c.chunk.js.map": "/harman-react-portfolio/static/js/react-syntax-highlighter_languages_refractor_actionscript.8d25df1c.chunk.js.map",
@@ -332,6 +333,6 @@
   },
   "entrypoints": [
     "static/css/main.5378e43f.css",
-    "static/js/main.593d8fed.js"
+    "static/js/main.57fc14eb.js"
   ]
 }
