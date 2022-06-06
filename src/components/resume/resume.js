@@ -21,9 +21,9 @@ function Resume() {
         <div className="window-body">
           <p style={{ textAlign: "center", color: "black" }}>Check out my resume!</p>
           <div className="field-row" style={{ justifyContent: "center" }}>
-            <Link to={resume} target="_blank" download>
-              <button>Download</button>
-            </Link>
+              <button onClick={() => {
+                window.open(resume)
+              }}>Open</button>
           </div>
         </div>
       </div>
