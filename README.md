@@ -18,4 +18,4 @@
   ### License
   Licensed under [MIT](https://choosealicense.com/licenses/mit/) 2022
   ### Screenshot
-  ![image](../harman-react-portfolio/src/images/screenshot.png)
+  ![screenshot](./src/images/screenshot.png)
