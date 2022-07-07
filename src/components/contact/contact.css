@@ -35,3 +35,21 @@
     left: 80%;
     bottom: 50px;
 }
+
+.Contact > * div {
+    width: 100%;
+    border: 5px solid #45FFC7;
+    border-radius: 10px;
+    box-shadow: 2px 4px purple;
+    outline: none;
+    background-color: #19a87d;
+    font-size: large
+}
+
+.Contact > * a {
+    color: white;
+}
+
+.link:hover {
+    color:blue;
+}

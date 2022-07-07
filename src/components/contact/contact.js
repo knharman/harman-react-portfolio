@@ -29,6 +29,7 @@ function Contact() {
   return (
     <div className="Contact">
       <form onSubmit={handleOnSubmit}>
+        <div className='mb-5 p-5' id="message" name="message">Let's get to know each other! You can email me at <a href="mailto:knharman@gmail.com" className="link">knharman@gmail.com</a> or use the contact form below. I look forward to hearing from you!</div>
         <img src={pug} alt="pug gif" />
         <input className="my-2 p-4" type="text" id="name" name="name" required placeholder="NAME" />
         <input className="my-2 p-4" type="email" id="email" name="email" required placeholder="EMAIL" />
